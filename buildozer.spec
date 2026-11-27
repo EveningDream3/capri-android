@@ -26,7 +26,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.3.0,plyer,vosk,sounddevice,numpy,android,pyjnius,openssl,requests
+requirements = python3,kivy==2.3.0,plyer,android,pyjnius,openssl,requests,numpy
 
 # (str) Custom source folders for requirements
 # Requirements can also be included from local folders, useful for vendoring.
