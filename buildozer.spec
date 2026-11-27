@@ -48,7 +48,7 @@ fullscreen = 0
 android.permissions = INTERNET,RECORD_AUDIO,MODIFY_AUDIO_SETTINGS,WAKE_LOCK
 
 # (int) Target Android API, should be as high as possible.
-android.api = 33
+android.api = 34
 
 # (int) Minimum API your APK will support.
 android.minapi = 24
@@ -136,7 +136,7 @@ android.accept_sdk_license = True
 #android.p4a.extra_modules =
 
 # (str) The Android archs to build for, separated by commas.
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 # (bool) enables Android auto backup feature (Android API >=23)
 android.allow_backup = True
